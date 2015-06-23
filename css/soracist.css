@@ -56,17 +56,17 @@ a.button.submit {
 .yesdiv {
     display:none;
     opacity:0;
-    -webkit-transition: opacity .5s;
-    -moz-transition: opacity .5s;
-    transition: opacity .5s;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    transition: opacity 1s;
 }
 
 .nodiv {
     display:none;
     opacity:0;
-    -webkit-transition: opacity .5s;
-    -moz-transition: opacity .5s;
-    transition: opacity .5s;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    transition: opacity 1s;
 }
 
 .question {
