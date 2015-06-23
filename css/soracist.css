@@ -25,6 +25,19 @@ a.button {
     margin-top:5px;
 }
 
+a.share {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#ffffff;
+}
+
 a.button.yes {
     background:#0000ff;
 }
@@ -41,16 +54,16 @@ a.icon:hover {
     opacity:.8;
 }
 
-a.button.facebook {
+a.share.facebook {
     background: #3b5998;
 }
 
-a.button.twitter {
+a.share.twitter {
     background: #37c5d6;
 }
 
-a.button.submit {
-    background: #2E0854;
+a.share:hover {
+    opacity: .8;
 }
 
 .yesdiv {
@@ -62,6 +75,14 @@ a.button.submit {
 }
 
 .nodiv {
+    display:none;
+    opacity:0;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.sharediv {
     display:none;
     opacity:0;
     -webkit-transition: opacity 1s;
@@ -88,6 +109,14 @@ a.button.submit {
     a.button {
         width: 190px;
         margin: 5px 5px;
+        border-radius: 5px;
+        cursor:pointer;
+        border-radius:5px;
+    }
+
+    a.share {
+        width: 190px;
+        margin: 35px 5px;
         border-radius: 5px;
         cursor:pointer;
         border-radius:5px;

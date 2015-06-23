@@ -55,9 +55,14 @@
 
     <a href="javascript:window.location.reload();">Realize that you don't want to be racist? Take the poll again.</a>
 
-
 	</div>
 
+  <div class="sharediv">
+
+    <a class="share facebook">Share on Facebook</a>
+    <a class="share twitter">Share on Twitter</a>
+
+  </div>
 
 	<script type="text/javascript">
     $(function() {
@@ -65,9 +70,13 @@
           $('.question').css('display', 'none');
           $('.buttons').css('display', 'none');
           $('.yesdiv').css('display', 'block');
+          $('.sharediv').css('display', 'block');          
           setTimeout(function() {
           $('.yesdiv').css('opacity', 1);
           }, 50);
+          setTimeout(function() {
+          $('.sharediv').css('opacity', 1);
+          }, 3000);
       });
     });
 
@@ -79,9 +88,13 @@
           $('.question').css('display', 'none');
           $('.buttons').css('display', 'none');
           $('.nodiv').css('display', 'block');
+          $('.sharediv').css('display', 'block');                    
           setTimeout(function() {
           $('.nodiv').css('opacity', 1);
           }, 50);
+          setTimeout(function() {
+          $('.sharediv').css('opacity', 1);
+          }, 3000);
       });
     });
     </script>
