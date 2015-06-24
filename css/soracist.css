@@ -72,6 +72,7 @@ a.share:hover {
     -webkit-transition: opacity 1s;
     -moz-transition: opacity 1s;
     transition: opacity 1s;
+    margin-bottom:20px;
 }
 
 .nodiv {
@@ -80,6 +81,7 @@ a.share:hover {
     -webkit-transition: opacity 1s;
     -moz-transition: opacity 1s;
     transition: opacity 1s;
+    margin-bottom:20px;
 }
 
 .sharediv {
@@ -116,7 +118,7 @@ a.share:hover {
 
     a.share {
         width: 190px;
-        margin: 35px 5px;
+        margin: 0px 5px;
         border-radius: 5px;
         cursor:pointer;
         border-radius:5px;
@@ -132,4 +134,12 @@ a.share:hover {
 
     h1 {
         font-size:2.5em;
+    }
+
+    .yesdiv {
+        margin-bottom:20px;
+    }
+
+    .nodiv {
+        margin-bottom:35px;
     }
